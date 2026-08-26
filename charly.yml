@@ -91,7 +91,7 @@ arch-coder-skill:
             
                 # DevOps / cloud / infra
                 - devops-tools
-                - kubernetes
+                - '@github.com/opencharly/layer-kubernetes:v2026.237.457'
                 - docker-ce
                 - github-actions
                 - google-cloud
@@ -506,7 +506,7 @@ debian-coder-skill:
             
                 # DevOps / cloud / infra
                 - devops-tools
-                - kubernetes
+                - '@github.com/opencharly/layer-kubernetes:v2026.237.457'
                 - docker-ce
                 - github-actions
                 - google-cloud
@@ -959,7 +959,7 @@ kubernetes-layer-skill:
             # charly.yml
             my-devops:
               candy:
-                - kubernetes
+                - '@github.com/opencharly/layer-kubernetes:v2026.237.457'
             ```
             
             ## Used In Boxes
@@ -1051,7 +1051,7 @@ ubuntu-coder-skill:
                 - forgecode
                 - oracle
                 - devops-tools
-                - kubernetes
+                - '@github.com/opencharly/layer-kubernetes:v2026.237.457'
                 - docker-ce
                 - github-actions
                 - google-cloud
